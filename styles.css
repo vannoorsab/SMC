@@ -1,0 +1,165 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #ffffff;
+    color: #000000;
+}
+
+.header {
+    text-align: center;
+    padding: 10px;
+    background: hsl(214, 64%, 72%);
+    color: #ffffff;
+    position: relative;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+.header h1 {
+    margin: 5px 0;
+    font-size: 20px;
+}
+
+.header p {
+    margin: 5px 0;
+    font-size: 12px;
+}
+
+.logos {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    position: relative;
+}
+
+.logos img {
+    height: auto;
+}
+
+.left-logo {
+    position: absolute;
+    left: 30px;
+    border-radius: 10%;
+    width: 200px;
+}
+
+.right-logo {
+    position: absolute;
+    right: 30px;
+    width: 300px;
+}
+
+.section {
+    padding: 40px;
+    text-align: center;
+}
+
+.section p {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.vision, .mission, .fields, .events {
+    background: #ffffff;
+    padding: 30px;
+    margin: 10px;
+    border-radius: 10px;
+    text-align: left;
+}
+
+.vision h2, .mission h2, .fields h2, .committee h2, .events h2 {
+    color: hsl(214, 48%, 63%);
+}
+
+.committee {
+    background: #ffffff;
+    padding: 30px;
+    margin: 10px;
+    border-radius: 10px;
+    text-align: left;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #000000;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background: hsl(214, 56%, 68%);
+    color: #ffffff;
+}
+
+.events a {
+    background: hsl(214, 46%, 64%);
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.events a:hover {
+    background: #003580;
+}
+
+.footer {
+    background: #00214d;
+    text-align: center;
+    padding: 20px;
+    color: #ffffff;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-left, .footer-center, .footer-right {
+    flex: 1;
+    text-align: center;
+}
+
+.nav {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.nav a {
+    margin: 0 15px;
+    color: #004aad;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav a:hover {
+    text-decoration: underline;
+}
+
+.social-links {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.social-links a {
+    margin: 0 10px;
+}
+
+.social-links img {
+    width: 30px;
+    height: 30px;
+}
+
+.copyright {
+    background: hsl(214, 52%, 55%);
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+    margin-top: 10px;
+}
