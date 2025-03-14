@@ -33,21 +33,22 @@ body {
     position: relative;
 }
 
-.logos img {
-    height: auto;
+.left-logo, .right-logo {
+    width: 250px; /* Increase the width of both logos */
+    border-radius: 10%;
 }
 
 .left-logo {
     position: absolute;
     left: 30px;
-    border-radius: 10%;
-    width: 200px;
+    top: 2px;
 }
 
 .right-logo {
     position: absolute;
-    right: 30px;
-    width: 300px;
+    right: 50px;
+    /* Increase the width of the right logo */
+
 }
 
 .section {
